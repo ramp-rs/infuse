@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "crates/infuse",
+    "crates/infuse-macros",
+    "crates/infuse-macros-watt"
+]
