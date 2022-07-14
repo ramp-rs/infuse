@@ -2,11 +2,10 @@
 
 use proc_macro::TokenStream;
 mod controller;
-mod service;
 mod dependencies;
+mod service;
 
-
-#[proc_macro_derive(Controller, attributes(controller))]
+#[proc_macro_derive(Controller, attributes(controller, get))]
 pub fn derive_controller(input: TokenStream) -> TokenStream {
     controller::derive_controller(input)
 }
