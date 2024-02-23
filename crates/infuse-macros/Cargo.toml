@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 syn = { version = "2.0", features = ["full"] }
 quote = "1.0"
-darling = { version = "0.14.1", features = [] }
+darling = { version = "0.20.8", features = [] }
 validator="0.15.0"
 url="2.2.2"
 proc-macro2="*"
