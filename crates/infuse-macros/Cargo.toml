@@ -9,7 +9,7 @@ edition = "2021"
 syn = { version = "2.0", features = ["full"] }
 quote = "1.0"
 darling = { version = "0.14.1", features = [] }
-validator="0.15.0"
+validator="0.17.0"
 url="2.2.2"
 proc-macro2="*"
 
