@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-const-str = { version = "0.4.3", features = ["all"] }
+const-str = { version = "0.5.7", features = ["all"] }
 darling = "0.14.1"
 infuse-macros = { version = "0.1.0", path = "../infuse-macros" }
 phf = { version = "0.10", default-features = false, features=["phf_macros"] }
