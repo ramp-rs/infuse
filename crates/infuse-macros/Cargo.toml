@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 syn = { version = "2.0", features = ["full"] }
-quote = "1.0"
+quote = "1.0.36"
 darling = { version = "0.14.1", features = [] }
 validator="0.15.0"
 url="2.2.2"
